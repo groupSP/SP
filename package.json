@@ -1,0 +1,22 @@
+{
+  "name": "sp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "chat.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/groupSP/SP.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/groupSP/SP/issues"
+  },
+  "homepage": "https://github.com/groupSP/SP#readme",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
