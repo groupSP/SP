@@ -7,22 +7,18 @@
     4. point to point file transfer
  -->
 
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Chat Message</title>
-        <!-- <script src="socket.io/socket.io.js"></script> -->
-        <script src="/socket.io/socket.io.js"></script>
-        <script src="server.js"></script>
-
-          
-
-    </head>
-    <body>
-        <form id="form">
-            <h1>Chat Message</h1>
-            <input name="msg" placeholder="Message"  required />
-            <button>Send</button>
-        </form>
-    </body>
+<head>
+    <title>Chat Message</title>
+    <script src="/socket.io/socket.io.js"></script> <!-- Load Socket.IO client -->
+    <script src="server.js"></script> <!-- Load your custom client-side code -->
+</head>
+<body>
+    <form id="form">
+        <h1>Chat Message</h1>
+        <input name="msg" placeholder="Message" required />
+        <button>Send</button>
+    </form>
+</body>
 </html>
