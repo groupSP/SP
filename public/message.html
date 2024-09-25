@@ -8,13 +8,18 @@
  -->
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Chat Message</title>
+        <!-- <script src="socket.io/socket.io.js"></script> -->
+        <script src="/socket.io/socket.io.js"></script>
         <script src="server.js"></script>
+
+          
+
     </head>
     <body>
-        <form>
+        <form id="form">
             <h1>Chat Message</h1>
             <input name="msg" placeholder="Message"  required />
             <button>Send</button>
