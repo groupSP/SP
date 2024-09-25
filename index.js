@@ -5,6 +5,9 @@ const http = require('http');
 const app = express();
 const server = http.createServer(app);
 
+const socket =  require(`socket.io`)
+const io = socketio(server)
+
 port = 9000;
 
 app.use(express.static(__dirname));
